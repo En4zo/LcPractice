@@ -13,7 +13,7 @@ object Solution {
       false
     } else {
       s.foreach(s =>
-        //if a parentheses is in left, at to the stack
+        //if a parentheses is in left, add to the stack
         if (leftParentheses.contains(s)) {
           stackRight.push(s)
         } else {
